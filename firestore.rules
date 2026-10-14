@@ -1,0 +1,11 @@
+rules_version = '2';
+
+// Point de départ sûr : tout est refusé tant que les règles par rôle
+// et par brasserie ne sont pas écrites et testées dans l'émulateur.
+service cloud.firestore {
+  match /databases/{database}/documents {
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}

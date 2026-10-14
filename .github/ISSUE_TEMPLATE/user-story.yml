@@ -1,0 +1,36 @@
+name: User story
+description: Une fonctionnalité du point de vue d'un utilisateur
+title: "[US] "
+labels: ["user-story"]
+body:
+  - type: textarea
+    id: story
+    attributes:
+      label: User story
+      description: "En tant que <rôle>, je veux <action> afin de <bénéfice>."
+      placeholder: "En tant que responsable d'inventaire, je veux saisir le stock restant en fin de journée afin que le réseau voie le stock à jour."
+    validations:
+      required: true
+  - type: textarea
+    id: criteres
+    attributes:
+      label: Critères d'acceptation
+      description: "Format conseillé : Étant donné… Quand… Alors…"
+    validations:
+      required: true
+  - type: dropdown
+    id: brique
+    attributes:
+      label: Brique
+      options: [Back-end Firebase, Back-office web, Android, iOS, Simulateur centrale, Pipeline données, Contrat API, DevSecOps / CI, Architecture / docs]
+    validations:
+      required: true
+  - type: dropdown
+    id: competence
+    attributes:
+      label: Compétence RNCP principale
+      options: [C1 Architecture, C2 Intégrité du code, C3 Front-end, C4 Back-end, C5 Données]
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes techniques

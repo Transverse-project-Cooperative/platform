@@ -1,0 +1,39 @@
+# Dépendances
+node_modules/
+.pnpm-store/
+
+# Builds
+dist/
+build/
+lib/
+coverage/
+
+# Secrets et environnement
+.env
+.env.*
+!.env.example
+*.local
+service-account*.json
+
+# Firebase
+.firebase/
+firebase-debug.log*
+firestore-debug.log*
+ui-debug.log*
+database-debug.log*
+pubsub-debug.log*
+
+# Logs
+*.log
+npm-debug.log*
+
+# Données générées volumineuses
+pipeline/data/raw/
+*.parquet
+*.csv.gz
+
+# Système et éditeurs
+.DS_Store
+.idea/
+.vscode/*
+!.vscode/extensions.json

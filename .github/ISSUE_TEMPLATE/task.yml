@@ -1,0 +1,15 @@
+name: Tâche technique
+description: Configuration, documentation, livrable (ADR, schéma, rapport…)
+title: "[TÂCHE] "
+labels: ["task"]
+body:
+  - type: textarea
+    id: objectif
+    attributes:
+      label: Objectif
+    validations:
+      required: true
+  - type: textarea
+    id: fini
+    attributes:
+      label: C'est terminé quand…

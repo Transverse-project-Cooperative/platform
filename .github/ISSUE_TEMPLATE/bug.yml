@@ -1,0 +1,21 @@
+name: Bug
+description: Un comportement incorrect
+title: "[BUG] "
+labels: ["bug"]
+body:
+  - type: textarea
+    id: constat
+    attributes:
+      label: Ce qui se passe
+    validations:
+      required: true
+  - type: textarea
+    id: attendu
+    attributes:
+      label: Ce qui devrait se passer
+    validations:
+      required: true
+  - type: textarea
+    id: reproduire
+    attributes:
+      label: Étapes pour reproduire
