@@ -1,4 +1,4 @@
-# Plateforme d'approvisionnement · Réseau BIAM
+# Plateforme d'approvisionnement · Bières des Régions Nouvelle-Aquitaine
 
 Plateforme Tech Lead du projet transverse .decode (PST1, RNCP38822 bloc 2) : stocks en temps réel des brasseries du réseau, stock réseau, commandes groupées aux centrales d'achat, données et prévisions.
 
